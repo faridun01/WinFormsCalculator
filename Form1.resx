@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBoxDisplay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="textBoxDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 2</value>
+  </data>
+  <data name="textBoxDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 51</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxDisplay.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.Name" xml:space="preserve">
+    <value>textBoxDisplay</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btn0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 330</value>
+  </data>
+  <data name="btn0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn0.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn0.Name" xml:space="preserve">
+    <value>btn0</value>
+  </data>
+  <data name="&gt;&gt;btn0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn0.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 260</value>
+  </data>
+  <data name="btn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn1.Name" xml:space="preserve">
+    <value>btn1</value>
+  </data>
+  <data name="&gt;&gt;btn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btn2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 260</value>
+  </data>
+  <data name="btn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn2.Name" xml:space="preserve">
+    <value>btn2</value>
+  </data>
+  <data name="&gt;&gt;btn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnDecimal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnDecimal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 330</value>
+  </data>
+  <data name="btnDecimal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnDecimal.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnDecimal.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;btnDecimal.Name" xml:space="preserve">
+    <value>btnDecimal</value>
+  </data>
+  <data name="&gt;&gt;btnDecimal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDecimal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDecimal.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btn3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 260</value>
+  </data>
+  <data name="btn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn3.Name" xml:space="preserve">
+    <value>btn3</value>
+  </data>
+  <data name="&gt;&gt;btn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btn4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 191</value>
+  </data>
+  <data name="btn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn4.Name" xml:space="preserve">
+    <value>btn4</value>
+  </data>
+  <data name="&gt;&gt;btn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btn5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 191</value>
+  </data>
+  <data name="btn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn5.Name" xml:space="preserve">
+    <value>btn5</value>
+  </data>
+  <data name="&gt;&gt;btn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 191</value>
+  </data>
+  <data name="btn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btn6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btn6.Name" xml:space="preserve">
+    <value>btn6</value>
+  </data>
+  <data name="&gt;&gt;btn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 123</value>
+  </data>
+  <data name="btn7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btn7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn7.Name" xml:space="preserve">
+    <value>btn7</value>
+  </data>
+  <data name="&gt;&gt;btn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 123</value>
+  </data>
+  <data name="btn8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btn8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btn8.Name" xml:space="preserve">
+    <value>btn8</value>
+  </data>
+  <data name="&gt;&gt;btn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btn9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 123</value>
+  </data>
+  <data name="btn9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btn9.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btn9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btn9.Name" xml:space="preserve">
+    <value>btn9</value>
+  </data>
+  <data name="&gt;&gt;btn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 261</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 54</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnDivide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnDivide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 54</value>
+  </data>
+  <data name="btnDivide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnDivide.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnDivide.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Name" xml:space="preserve">
+    <value>btnDivide</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnMultiply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnMultiply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 122</value>
+  </data>
+  <data name="btnMultiply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnMultiply.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnMultiply.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.Name" xml:space="preserve">
+    <value>btnMultiply</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSubtract.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnSubtract.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 191</value>
+  </data>
+  <data name="btnSubtract.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnSubtract.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnSubtract.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;btnSubtract.Name" xml:space="preserve">
+    <value>btnSubtract</value>
+  </data>
+  <data name="&gt;&gt;btnSubtract.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSubtract.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSubtract.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnEquals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnEquals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 330</value>
+  </data>
+  <data name="btnEquals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <data name="btnEquals.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnEquals.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.Name" xml:space="preserve">
+    <value>btnEquals</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnRoot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="btnRoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 54</value>
+  </data>
+  <data name="btnRoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnRoot.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnRoot.Text" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="&gt;&gt;btnRoot.Name" xml:space="preserve">
+    <value>btnRoot</value>
+  </data>
+  <data name="&gt;&gt;btnRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRoot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRoot.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Delete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Delete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 19.800001pt, style=Bold</value>
+  </data>
+  <data name="Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 54</value>
+  </data>
+  <data name="Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>⌫</value>
+  </data>
+  <data name="&gt;&gt;Delete.Name" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;Delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Delete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Delete.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>282, 402</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AABsbGwAb29vAGNjYwN5eXkBdXV1AHp6egAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGJiYgBgYGAAYWFhAVxc
+        XANfX18AXl5eAGZmZgBQUFABJCQkAC4uLgs5OTkdOTk5Gzk5ORs5OTkbOTk5Gzk5ORs5OTkbOTk5Gzk5
+        ORs5OTkbODg4Gzo6OhtPT04bUUlgG1xxNBtKWisfRR6QTEkbpIxKGqqqShqqqkkbpI1FHpFNSlksH1xw
+        NR1OPm8MVEF4AFpXXQFdXVwAY2NjA15eXgBXV1dMampq6XFxcflwcHD3cHBw+HBwcPhwcHD4cHBw+HBw
+        cPhwcHD4cHBw+HBwcPhwcHD4b29v+GBfYfhfYlj4VUtp+E0iovpOF7n/The7/04Xu/9OF7v/The7/04X
+        uf9NIqL6VUtq+V5hV+pZVl5NXVtgAFxcXgMtLS0AIyMjCXh4eOCNjY3/j4+P/Y+Pj/+Pj4//j4+P/4+P
+        j/+Pj4//j4+P/4+Pj/+Pj4//j4+P/5CQkP+Mi47/aW1j/1hIef9OF7r/ThS//04Xuv1OF7r7The6/E4X
+        uvxOF7r7The6/U4Uv/9NFrr9WUh6/2FlWuBLNnYJU01fAHt7ewB6enocjIyM9o2Njf+Li4v+i4uL/o2N
+        jf6Ojo7+i4uL/ouLi/6NjY3+jo6O/ouLi/6Li4v+jIuN/oqMhf5eU3P+TBO6/k4WvP5OGLj+The6/04X
+        uv9OF7r/The6/04Xuv9OF7r/Thi4/k4WvP5NFLv/W09x9muCPRxrgzwAjo6OAI6OjhuMjIz3jIyM/4yM
+        jP6NjY3/hYWF/4KCgv+Pj4//jY2N/4aGhv+BgYH/jIyM/4yMjP+NjY7/hoeD/1Emp/9NE7//Thi4/04X
+        uv9RG7z/Uhu9/1Ebvf9SG73/Uhu9/1Ebvf9OF7v/Thi4/k4Uvv9PIqj6UlpKIFNYTwCLi4sAi4uLG4yM
+        jPiMjIz/jY2N/oaGhv/CwsL/pKSk/3d3d/+EhIT/u7u7/66urv+BgYH/jY2P/4+Siv90ZpD/SxG8/08Y
+        uf9OF7r/TRa6/z4Esf87Aa3/PAKu/zwCrv87Aa7/PQOu/0wVt/9OF7v/The6/U4Wuv9GHJlXTBa0AIuL
+        iwCLi4sbjIyM+IyMjP+NjY3+h4eH/7e3t///////mpqa/62trf//////sbGx/4eHh/+NjI7/j5OH/2NG
+        nf9KD77/Txm5/0wUuf9WIb7/sp3b/7ip1v+2ptf/tqbW/7mp2P+undD/Tx+t/00Vu/9OGLn7The7/0ob
+        p5laDfAAi4uLAIuLixuMjIz4jIyM/4yMjP6NjY3/goKC/62trf/9/f3/9/f3/5+fn/+FhYX/jY2N/4yL
+        jf+MkIb/XDek/0sRvv9PGbn/TBW5/1Ugvf+qkN7/s5vg/7CY4P+wmOD/s5vh/6qQ3f9UILv/TBW6/04Y
+        uvxOF7z/SxmtunwA/wCLi4sAi4uLG4yMjPiMjIz/jIyM/o2Njf+Dg4P/s7Oz//z8/P/6+vr/mpqa/3d3
+        d/+Pjo//jIuN/4yPhv9cNqX/SxG+/08Zuf9NFbn/Ux29/4dmyf+JbMH/iGrC/4hqwv+KbMP/g2W9/0wb
+        rf9OFrz/The5/E4XvP9LGa28hQD/AIuLiwCLi4sbjIyM+IyMjP+NjY3+hoaG/7y8vP//////p6en/62t
+        rf//////pKSk/4ODg/+OjY//jpKG/2JDn/9KEL7/Txq5/0wUuf9XI77/z8Dt/9vQ8v/YzPH/2Mzx/9vQ
+        8//Pwez/ViS6/0wUuf9PGLr7The7/0oaqaFdC/8Ai4uLAIuLixuMjIz4jIyM/42Njf6Ghob/vb29/7Cw
+        sP+Dg4P/g4OD/7W1tf+6urr/hoaG/4yMjv+Qk4n/cWCS/0oQvf9PGbn/The6/00Wuv9DCLX/Qge1/0IH
+        tf9CB7X/Qge1/0MItv9NFrr/The6/04XuvxOF7r/RxudZE0UvgCLi4sAi4uLG4yMjPiMjIz/jIyM/o2N
+        jf+FhYX/h4eH/42Njf+NjY3/hoaG/4aGhv+NjY3/i4uM/46Ojf+Dg4X/UCCt/04Vvf9OGLn/The6/1AZ
+        u/9QGrv/UBq7/1Aau/9QGrv/UBm7/04Xuv9OGLn+ThW9/04erfxLRlwlTkViAIuLiwCLi4sbjIyM+IyM
+        jP+MjIz+jIyM/42Njf+NjY3/jIyM/4yMjP+NjY3/jY2N/4yMjP+MjIz/jYyO/4uOhf9bS3v/SxG+/08Y
+        uv9OGLn/The6/04Xuv9OF7r/The6/04Xuv9OF7r/Thi5/04Yuv5MEr7/WEd6+G6LNBtuijUAi4uLAIuL
+        ixuLi4v4jIyM/4yMjP6MjIz/jIyM/4yMjP+MjIz/jIyM/4yMjP+MjIz/jIyM/4uLi/+MjIz/iYiK/2hr
+        Yf9VPIX/TRLA/04Wvf9OGLj/Thi4/04Yuf9OGLn/Thi4/04YuP9OFr3/TBHA/lU9hv9laV74ZmBzHGhn
+        awCNjY0AjY2NG46OjviOjo7/jo6O/o6Ojv+Ojo7/jo6O/46Ojv+Ojo7/jo6O/46Ojv+Ojo7/jo6O/46O
+        jv+Li4v/Z2do/2NnXf9XRnr/Thyu/00Twf9OE8H/ThS//04Uv/9OE8H/TRPB/04crv9XRXr+ZGdd/2Vk
+        ZvhkZGUbZWVlAKSkpACkpKQbpKSk+KSkpP+kpKT+pKSk/6SkpP+kpKT/pKSk/6SkpP+kpKT/pKSk/6Sk
+        pP+kpKT/pqam/5+fn/9fX1//WVha/1teVf9WVFn/UT14/08sk/9OJZ//TiWf/08sk/9RPXn/VlRZ/1te
+        VP5aWVv/Wlpa91pbWhpaWloApqamAKamphumpqb4pqam/6ampv6mpqb/pqam/6ampv+np6f/pqam/6am
+        pv+mpqb/pqam/6ampv+oqKj/oaGh/15eXv9XV1f/WVha/1paWf9aXVL/WFxR/1daU/9XWlP/WFxR/1pd
+        Uv9aWlj/WVha/llZWf9ZWVn3WVlZGllZWQCmpqYApqamG6ampvimpqb/pqam/qampv+mpqb/pqam/6Wl
+        pf+np6f/pqam/6ampv+mpqb/pqam/6enp/+hoaH/Xl5e/1hYWP9ZWVn/WVlZ/1lYWv9ZWFv/WVla/1lZ
+        Wv9ZWFv/WVha/1lZWf9ZWVn+WVlZ/1lZWfdZWVkaWVlZAKampgCmpqYbpqam+Kampv+mpqb+pqam/6am
+        pv+mpqb/p6en/5ubm/+kpKT/pqam/6ampv+mpqb/p6en/6Ghof9eXl7/WFhY/1lZWf9ZWVn/WVlZ/1lZ
+        Wf9ZWVn/WVlZ/1lZWf9ZWVn/WVlZ/1lZWf5ZWVn/WVlZ91lZWRpZWVkApqamAKamphumpqb4pqam/6am
+        pv6mpqb/qamp/6Kiov/e3t7/xsbG/5ycnP+rq6v/pqam/6ampv+np6f/oaGh/15eXv9YWFj/WVlZ/1lZ
+        Wf9ZWVn/WFhY/1hYWP9YWFj/WFhY/1hYWP9ZWVn/WVlZ/llZWf9ZWVn3WVlZGllZWQCmpqYApqamG6am
+        pvimpqb/pqam/qampv+dnZ3/j4+P/97e3v/Jycn/i4uL/5ycnP+kpKT/pqam/6enp/+hoaH/Xl5e/1hY
+        WP9ZWVn/WVlZ/1paWv9aWlr/VlZW/1dXV/9XV1f/V1dX/1VVVf9WVlb+Wlpa/1lZWfdZWVkaWVlZAKam
+        pgCmpqYbpqam+Kampv+lpaX+rKys/9LS0v/IyMj/7u7u/+rq6v/Ly8v/xcXF/5ubm/+np6f/p6en/6Gh
+        of9eXl7/WFhY/1tbW/9TU1P/cnJy//T09P/z8/P/8vLy//Hx8f/8/Pz/xcXF/05OTv5bW1v/WVlZ91lZ
+        WRpZWVkApqamAKamphumpqb4pqam/6Wlpf6rq6v/39/f/+Hh4f/29vb/7e3t/9/f3//d3d3/p6en/6Wl
+        pf+oqKj/oaGh/15eXv9YWFj/Wlpa/1dXV/9gYGD/iYmJ/4qKiv+JiYn/iYmJ/4yMjP99fX3/V1dX/llZ
+        Wf9ZWVn3WVlZGllZWQCmpqYApqamG6ampvimpqb/pqam/qWlpf+goKD/lZWV/+Dg4P/IyMj/j4+P/6Ki
+        ov+mpqb/pqam/6enp/+hoaH/Xl5e/1hYWP9ZWVn/WVlZ/1dXV/9PT0//T09P/09PT/9PT0//Tk5O/1JS
+        Uv9ZWVn+WVlZ/1lZWfdZWVkaWVlZAKampgCmpqYbpqam+Kampv+mpqb+pqam/6mpqf+goKD/4ODg/9LS
+        0v+dnZ3/qamp/6ampv+mpqb/p6en/6Ghof9eXl7/WFhY/1lZWf9ZWVn/WVlZ/1tbW/9bW1v/W1tb/1tb
+        W/9bW1v/Wlpa/1lZWf5ZWVn/WVlZ91paWhpaWloApKSkAKSkpBumpqb3pqam/6ampv6mpqb/pqam/6Wl
+        pf+rq6v/rKys/6ampv+mpqb/pqam/6ampv+np6f/oaGh/15eXv9YWFj/WVlZ/1lZWf9ZWVn/WVlZ/1lZ
+        Wf9ZWVn/WVlZ/1lZWf9ZWVn/WVlZ/llZWf9ZWVn2VVVVGlZWVgCwsLAAsbGxHKampvalpaX/pqam/qam
+        pv6mpqb+pqam/qWlpf6lpaX+pqam/qampv6mpqb+pqam/qioqP6hoaH+X19f/lhYWP5aWlr+WVlZ/llZ
+        Wf5ZWVn+WVlZ/llZWf5ZWVn+WVlZ/llZWf5aWlr+WFhY/1paWvVycnIacHBwAM/PzwDR0dELsrKy46am
+        pv+lpaX9paWl/6Wlpf+lpaX/paWl/6Wlpf+lpaX/paWl/6Wlpf+kpKT/pqam/6CgoP9cXFz/VVVV/1dX
+        V/9XV1f/V1dX/1dXV/9XV1f/V1dX/1dXV/9XV1f/V1dX/1ZWVv1aWlr/cXFx3dvb2wfLy8sAvr6+A8DA
+        wADBwcFQurq66ri4uPm4uLj3uLi4+Li4uPi4uLj4uLi4+Li4uPi4uLj4uLi4+Li4uPi5ubn4tLS0+H5+
+        fvh5eXn4enp6+Hp6evh6enr4enp6+Hp6evh6enr4enp6+Hp6evh6enr3enp6+YCAgOaQkJBJi4uLAIeH
+        hwO9vb0Aw8PDAc3NzQDMzMwLz8/PHdHR0RvQ0NAb0NDQG9DQ0BvQ0NAb0NDQG9DQ0BvQ0NAb0NDQG9HR
+        0RvNzc0bqKioG6WlpRumpqYbpqamG6amphumpqYbpqamG6amphumpqYbpqamG6WlpRumpqYcsbGxCrm5
+        uQCVlZUBhISEAMPDwwDCwsIAvr6+A729vQG+vr4AvLy8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAd3d3AHt7
+        ewB4eHgBhYWFA39/fwCBgYEAS///0qAAAAVAAAACgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAFAAAACoAAABUv//9I=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calc</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

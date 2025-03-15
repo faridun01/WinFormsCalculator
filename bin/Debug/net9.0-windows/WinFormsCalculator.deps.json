@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "WinFormsCalculator/1.0.0": {
+        "runtime": {
+          "WinFormsCalculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
