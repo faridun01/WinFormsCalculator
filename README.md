@@ -7,7 +7,7 @@ WinForms Calculator is a **simple and user-friendly desktop application** built 
 **Basic Arithmetic** – Addition (+), Subtraction (-), Multiplication (*), Division (/)  
 **Square Root Calculation (√)**  
 **Clear and Delete Functionality**  
-**Handles Multiple Operations Sequentially** (e.g., `4 + 5 * 6` computes `9 * 6`)  
+**Handles Multiple Operations Sequentially
 **Beautiful and Responsive UI**  
 
 ## 📌 Technologies Used
